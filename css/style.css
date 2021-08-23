@@ -158,7 +158,11 @@
     .home p {
         font-size: 16px;
     }
-
+    .home nav {
+        display: inline-block;
+        margin-left: 5px;
+        margin-top: 0px;
+   }
     .home h1 {
         font-size: 28px;
     }
