@@ -562,11 +562,15 @@ textarea.contact-form-text{
     padding: 20px 20px;
     margin: 20px 0;
   }
+  .getintouch-table{
+    padding: 20px 0px;
+  }
   .getintouch{
     padding: 20px 20px;
     margin: 20px 0;
   }
 }
+
 
 @media only screen and (max-width: 350px) {
   .contact-form-text-name{
@@ -580,6 +584,9 @@ textarea.contact-form-text{
   .contact-section{
     padding: 20px 20px;
     margin: 20px 0;
+  }
+  .getintouch-table{
+    padding: 20px 0px;
   }
   .getintouch{
     padding: 20px 20px;
