@@ -142,7 +142,7 @@
     .navbar-nav .nav-item a span {
       width: 0;
       height: 2px;
-      background-color: #fff;
+      background-color: #c9a04f;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -159,14 +159,14 @@
         content: '';
         width: 0;
         height: 2px;
-        background-color: #fff;
+        background-color: #c9a04f;
         left: 110%; }
       .navbar-nav .nav-item a span::after {
         position: absolute;
         content: '';
         width: 0;
         height: 2px;
-        background-color: #fff;
+        background-color: #c9a04f;
         left: 140%; }
   .navbar-nav .nav-item.active > a span, .navbar-nav .nav-item:hover > a span {
     opacity: 1;
