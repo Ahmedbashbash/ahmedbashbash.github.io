@@ -84,7 +84,7 @@ $(function(){
         }
     })
 
-})(jQuery);
+});
 
 $(document).ready(function() {
     $('.projects-wrapper').isotope({
