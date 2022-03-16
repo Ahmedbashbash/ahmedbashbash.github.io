@@ -292,8 +292,8 @@
 	text-decoration: none;
   transition: all 0.6s;
   padding: 10px 15px;
-  margin: 8px 0px;
-  line-height: 25px;
+  /* margin: 4px 8px; */
+  /* line-height: 25px; */
   font-weight: 500;
 }
 .home a.active {
@@ -691,12 +691,12 @@ max-width: 50px; */
 
 .skills-container{
 display: grid;
-grid-tempLate-columns: repeat(5, 1fr);
+grid-tempLate-columns: repeat(3, 1fr);
 justify-content:center;
 align-items:center;
 text-align: center;
-grid-gap:1rem;
-padding: 1rem 40px;
+/* grid-gap:1rem; */
+padding: 1rem 180px;
 font-size: 1.2rem;
 }
 .skills-box{
@@ -783,7 +783,7 @@ margin-top: 0.5rem;
 
 @media screen and (max-width:650px){
  .skills-container{
- grid-tempLate-columns:2fr;
+ grid-tempLate-columns:repeat(2, 1fr);
  padding: 2rem 50px;
  }
 }
