@@ -19,7 +19,7 @@ $(function(){
         }
     });
 
-    
+
     var scrollLink = $('.page-scroll');
     // Active link switching
     $(window).scroll(function () {
@@ -111,4 +111,9 @@ $(document).ready(function() {
         }
     });
 
+});
+const themeSwitch = document.querySelector('input');
+
+themeSwitch.addEventListener('change', () => {
+  document.body.classList.toggle('dark-theme');
 });
